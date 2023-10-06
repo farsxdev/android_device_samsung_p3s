@@ -21,6 +21,9 @@ include vendor/samsung/p3s/BoardConfigVendor.mk
 
 DEVICE_PATH := device/samsung/p3s
 
+# Build Hax
+BUILD_BROKEN_DUP_RULES := true
+
 # APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 

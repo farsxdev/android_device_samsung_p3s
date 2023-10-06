@@ -28,6 +28,9 @@ vendor/firmware/dax_param.bin
 vendor/firmware/dsp_master.bin
 vendor/firmware/txse4.bin
 
+# Bluetooth
+vendor/lib64/libbt-vendor.so
+
 # Bluetooth firmware
 vendor/firmware/bcm4389B0_murata.hcd
 vendor/firmware/bcm4389B0_semco.hcd
