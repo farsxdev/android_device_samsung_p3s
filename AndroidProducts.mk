@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_p3s.mk
+    $(LOCAL_DIR)/cherish_p3s.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_p3s-eng \
-    aosp_p3s-user \
-    aosp_p3s-userdebug
+    cherish_p3s-eng \
+    cherish_p3s-user \
+    cherish_p3s-userdebug
