@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_p3s.mk
+    $(LOCAL_DIR)/lineage_p3s.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_p3s-eng \
-    cherish_p3s-user \
-    cherish_p3s-userdebug
+    lineage_p3s-eng \
+    lineage_p3s-user \
+    lineage_p3s-userdebug

@@ -25,25 +25,18 @@ $(call inherit-product, device/samsung/p3s/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1440
 
 ## Inherit some common Pixel Experience stuff
-$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 ## Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
-# Pixel Experience Flags
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
-TARGET_SUPPORTS_QUICK_TAP := false
-
-# Cherish
-CHERISH_MAINTAINER := FrEeRuNnEr4EvEr
-CHERISH_CHIPSET := exynos2100
-CHERISH_BATTERY := 5000mAh
-CHERISH_DISPLAY := 1440x3200
+# Matrixx
+MATRIXX_CHIPSET := exynos2100
+MATRIXX_BATTERY := 5000mAh
+MATRIXX_DISPLAY := 1440x3200
 
 ## Device identifier, this must come after all inclusions
-PRODUCT_NAME := cherish_p3s
+PRODUCT_NAME := lineage_p3s
 PRODUCT_DEVICE := p3s
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G998B
