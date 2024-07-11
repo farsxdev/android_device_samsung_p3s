@@ -27,6 +27,11 @@ BUILD_BROKEN_DUP_RULES := true
 # APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
+## Camera ID's
+# ID=50 is second telephoto camera
+# ID=52 is telephoto camera
+SOONG_CONFIG_samsungCameraVars_extra_ids := 50,52
+
 # Display
 TARGET_SCREEN_DENSITY := 560
 
