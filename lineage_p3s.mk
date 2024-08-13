@@ -34,6 +34,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 MATRIXX_CHIPSET := exynos2100
 MATRIXX_BATTERY := 5000mAh
 MATRIXX_DISPLAY := 1440x3200
+MATRIXX_MAINTAINER := farsxdev
+TARGET_HAS_UDFPS := true
+WITH_GMS := true
 
 ## Device identifier, this must come after all inclusions
 PRODUCT_NAME := lineage_p3s
